@@ -10,7 +10,7 @@ dog_circuit.cx(0, 1)
 dog_circuit.measure_all()
 
 universe = StatevectorSampler()
-result = universe.run([dog_circuit], shots=1084).result()
+result = universe.run([dog_circuit], shots=1000000).result()
 print(result[0].data.meas.get_counts())
 
 #matplotlib magic
