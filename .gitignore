@@ -1,3 +1,4 @@
+.gitignore
 .venv/
 chee.txt
 credentials.py
