@@ -7,7 +7,7 @@ service = QiskitRuntimeService(channel="ibm_quantum_platform")
 
 # 2. Choose a real backend
 backend = service.least_busy(simulator=False, operational=True, min_num_qubits=2)
-print("Backend choosed:", backend.name, "- qubit:", backend.num_qubits)
+print("Backend choosen:", backend.name, "- qubits:", backend.num_qubits)
 
 # 3. Circuit Bell of 2 qubit
 qc = QuantumCircuit(2)
