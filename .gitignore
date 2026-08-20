@@ -1,3 +1,4 @@
 .venv/
 chee.txt
 credentials.py
+lottery_map.py

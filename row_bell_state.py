@@ -40,4 +40,4 @@ def BellState(s) :
 
     '''
 
-BellState(1024)
+BellState(30463311)
